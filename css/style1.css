@@ -151,7 +151,7 @@ input::placeholder{
 
 
 
-@media all and (max-width:900px) {
+@media all and(max-width:900px) {
     footer{
         padding: 40px;
     }
@@ -186,10 +186,16 @@ input::placeholder{
     padding: 10px;
     width: 40%;
 }
+
+
+.title2{
+    display: flex;
+    flex-direction: column;
+}
     
     .btn2{
-        padding: 8px px;
-        width: 100px;
+        padding: 8px 8px;
+        width: 80px;
         border: 1px solid lightsalmon;
         background-color:lightsalmon;
         margin: 20px;
@@ -202,6 +208,8 @@ input::placeholder{
         font-weight:lighter;
         width: 500px;
     }
+
+
 
 }
 
